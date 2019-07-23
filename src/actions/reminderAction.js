@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { ADD_REMINDER, FETCH_REMINDER, REMOVE_REMINDER, SET_VISIBILITY_FILTER } from './actionsTypes'
-const baseurl = "http://localhost:3000/reminder/";
+const baseurl = "http://localhost:3001/reminder/";
 var config = {crossdomain: true}
 
 export const addReminder = (obj) => {

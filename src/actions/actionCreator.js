@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO, SET_VISIBILITY_FILTER, FETCH_TODO } from './actionsTypes'
-const baseurl = "http://localhost:3000/todo/";
+const baseurl = "http://localhost:3001/todo/";
 
 export const addTodo = (title) => {
   return (dispatch) => {
